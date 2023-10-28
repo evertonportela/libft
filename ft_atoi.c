@@ -6,9 +6,11 @@
 /*   By: evportel <evportel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/22 21:53:23 by evportel          #+#    #+#             */
-/*   Updated: 2023/10/28 17:53:06 by evportel         ###   ########.fr       */
+/*   Updated: 2023/10/28 17:55:53 by evportel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_atoi(const char *nptr)
 {
