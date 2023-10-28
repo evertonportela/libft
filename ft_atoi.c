@@ -6,7 +6,7 @@
 /*   By: evportel <evportel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/22 21:53:23 by evportel          #+#    #+#             */
-/*   Updated: 2023/10/28 17:38:13 by evportel         ###   ########.fr       */
+/*   Updated: 2023/10/28 17:53:06 by evportel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,6 @@ int	ft_atoi(const char *nptr)
 	}
 	number = number * mult;
 	if (number > 2147483647 || number < -2147483647)
-		ft_push_swap_error();
+		exit(0);
 	return (number);
 }
